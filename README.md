@@ -1,10 +1,2 @@
-# springbootqrcodegenerator
-Spring boot QR code generator application
-
-
-1. Clone this project in to your local machine.
-2. Import project in to Intellij IDE using POM xml file as project.
-3. Update the output directory location in application.properties file
-4. Run as QrgeneratorApplication main java file to run the application.
-5. Test1 - Type message to generate QR code and validate QR code file generated in output folder.
-6. Test2 - Call POST api http://localhost:8080/qrcode by providing message in body & validate QR code file generated in output folder.
+# QRCode_Generator
+Developed a dynamic QR Code generator using Spring Boot and the Google ZXing Barcode Library, enabling scalable creation of QR Codes for URLs and text. Optimized the application for high performance, ensuring quick and accurate encoding/decoding even under heavy traffic. Enhanced scalability for large datasets.
